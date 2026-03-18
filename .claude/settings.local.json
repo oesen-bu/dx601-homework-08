@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"C:\\\\Users\\\\oktay\\\\bu\\\\math-found\\\\week-8\\\\dx601-homework-08\" && jupyter nbconvert --to notebook --execute homework.ipynb --output homework_test.ipynb 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\oktay\\\\bu\\\\math-found\\\\week-8\\\\dx601-homework-08\" && pip install nbconvert 2>&1 | tail -3)",
+      "Bash(cd \"C:\\\\Users\\\\oktay\\\\bu\\\\math-found\\\\week-8\\\\dx601-homework-08\" && python -m jupyter nbconvert --to notebook --execute homework.ipynb --output homework_test.ipynb 2>&1)",
+      "Bash(which python:*)"
+    ]
+  }
+}
